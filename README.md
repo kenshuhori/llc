@@ -3,9 +3,5 @@ Life Line Chart
 
 # Getting Started
 
-```
-$ docker build . -t llc
-$ bin/start
-
-# http://localhost:8501/ でアクセス
-```
+1. DevContainerで起動する
+2. http://localhost:8501 にアクセス

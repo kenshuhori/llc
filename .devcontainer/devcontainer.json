@@ -1,7 +1,4 @@
 {
-  "build": {
-    "dockerfile": "../Dockerfile"
-  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,10 +8,8 @@
       ]
     }
   },
-  "forwardPorts": [
-    8501
-  ],
+  "dockerComposeFile": "../compose.yml",
   "name": "kenshuhori/llc",
-  "postCreateCommand": "/workspaces/llc/bin/start",
-  "workspaceFolder": "/workspaces",
+  "service": "streamlit",
+  "workspaceFolder": "/app"
 }

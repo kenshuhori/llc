@@ -1,0 +1,9 @@
+version: '3'
+services:
+  streamlit:
+    build: .
+    volumes:
+      - ./:/app
+    command: 'bin/start'
+    ports:
+      - '8501:8501'
